@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #fff;
+}
+
+section{
+  height: 100vh;
+  overflow: hidden;
+}
+
+button{
+  margin-top: 30px;
+  color: #fff;
+  background-color: #00eeff;
+  border-radius: 8px;
+  padding:0.6em 2em;
+  width: 180px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 4%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+p{
+  font-size: small;
+  margin-top: 5vh;
+}
+
+.navigation-bar{
+  display: flex;
+  justify-content: right;
+  padding-right: 50px;
+}
+
+
+                        /* Home */
+
+
+.home-page{
+  background-color: #1f242d;
+}
+
+.main-page{
+  display: flex;
+  margin: 40px 198.4px 132.267px 132.267px;
+  align-items: center;
+  padding-top: 2%;
+}
+
+.content-I{
+  line-height: 1.6;
+  margin-right: 100px;
+}
+
+.content-I>h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.content-I>h3{
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 100px;
+}
+
+.home-page>img{
+  max-height: 40vh;
+}
+
+.foot{
+  box-sizing: content-box;
+  margin-top: 5vh;
+}
+
+.foot>i{
+  padding-left: 15px;
+}
+
+
+                  /* About */
+
+
+.about-page{
+  background-color: #323946;
+}
+
+.content-II{
+  line-height: 1.6;
+  margin-left: 100px;
+}
+
+.content-II>h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.content-II>h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* our services */
+
+
+.ourServices-page{
+  background-color: #1f242d;
+}
+
+.main-page-II{
+  margin-top: 40px;
+}
+
+
+
+.main-page-II{
+  padding: 0 10px 30px 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px 40px;
+  overflow: hidden;
+}
+
+
+.title{
+  margin-bottom: 30px;
+  /* padding: 30px 0; */
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+
+.title>h3{
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+
+.items{
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1fr;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  align-content: center;
+  place-items: center;
+}
+
+.description{
+  padding: 10px 20px;
+  display: grid;
+  grid-template-rows: auto 1fr 50px;
+  grid-row-gap: 15px;
+}
+
+
+.FieldName{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+.FieldName>h3{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+.line>p{
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  align-self: stretch;
+}
